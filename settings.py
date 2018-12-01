@@ -1,4 +1,4 @@
-#！/usr/bin/env python
+#！/usr/bin/env python3
 # -*- coding:utf-8 -*-
 # redis数据库地址
 REDIS_HOST = '127.0.0.1'
