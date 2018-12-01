@@ -1,3 +1,6 @@
+#!/usr/bin/env python 
+# -*- coding=utf-8 -*-
+
 from db import RedisClient 
 from crawler import Crawler 
 from settings import * 

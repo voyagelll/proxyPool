@@ -1,3 +1,6 @@
+#!/usr/bin/env python 
+# -*- coding=utf-8 -*-
+
 import redis 
 import re 
 from random import choice 
