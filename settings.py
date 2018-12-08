@@ -19,10 +19,10 @@ INITIAL_SCORE = 5
 VALID_STATUS_CODES = [200, 302]
 
 # 代理池数量界限
-POOL_UPPER_THRESHOLD = 1000
+POOL_UPPER_THRESHOLD = 2000
 
 # 检测周期
-TESTER_CYCLE = 30  
+TESTER_CYCLE = 40
 
 # 获取周期
 GETTER_CYCLE = 500
@@ -30,11 +30,11 @@ GETTER_CYCLE = 500
 # 测试API, 抓取哪个测那个
 # TEST_URL = 'http://www.nytdc.edu.cn/index.php?m=content&c=index&a=lists&catid=192'
 # TEST_URL = 'http://www.ishangzu.com'
-# TEST_URL = 'http://school.nihaowang.com'
+TEST_URL = 'http://school.nihaowang.com'
 # TEST_URL = 'https://www.tianyancha.com/'
 # TEST_URL = 'https://www.google.com/'
 # TEST_URL = 'https://www.baidu.com'
-TEST_URL = 'https://m.weibo.cn/'
+# TEST_URL = 'https://m.weibo.cn/'
 # TEST_URL = 'https://www.blockchain.com/btc/blocks'
 
 # API配置
