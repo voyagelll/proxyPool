@@ -30,12 +30,13 @@ GETTER_CYCLE = 500
 # 测试API, 抓取哪个测那个
 # TEST_URL = 'http://www.nytdc.edu.cn/index.php?m=content&c=index&a=lists&catid=192'
 # TEST_URL = 'http://www.ishangzu.com'
-TEST_URL = 'http://school.nihaowang.com'
+# TEST_URL = 'http://school.nihaowang.com'
 # TEST_URL = 'https://www.tianyancha.com/'
 # TEST_URL = 'https://www.google.com/'
 # TEST_URL = 'https://www.baidu.com'
 # TEST_URL = 'https://m.weibo.cn/'
 # TEST_URL = 'https://www.blockchain.com/btc/blocks'
+TEST_URL = 'https://m.xiaohongshu.com/?_at=3bf33415906b3ffff2cb233319ec79910cf44'
 
 # API配置
 API_HOST = '0.0.0.0'
