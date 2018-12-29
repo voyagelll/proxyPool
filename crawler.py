@@ -12,12 +12,6 @@ from db import RedisClient
 
 redis = RedisClient()
 ua = UserAgent()
-# headers = {'User-Agent': ua.random}
-proxies = {
-	'http': 'http://' + redis.random(),
-	'https': 'https://' + redis.random(),
-}
-# print(proxies)
 
 class ProxyMetaclass(type):
 	def __new__(cls, name, bases, attrs):
