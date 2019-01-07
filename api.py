@@ -26,5 +26,6 @@ def get_counts():
 	conn = get_conn()
 	return str(conn.count())
 
+
 if __name__ == '__main__':
 	app.run()

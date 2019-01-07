@@ -62,6 +62,7 @@ class RedisClient(object):
 	def batch(self, start, stop):
 		return self.db.zrevrange(REDIS_KEY, start, stop-1)
 
+
 if __name__ == '__main__':
 	conn = RedisClient()
 	result = conn.batch(680, 688)

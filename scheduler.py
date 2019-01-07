@@ -9,7 +9,7 @@ from db import RedisClient
 from settings import *
 
 
-class Scheduler():
+class Scheduler(object):
 	def schedule_tester(self, cycle=TESTER_CYCLE):
 		tester = Tester()
 		while True:
@@ -42,5 +42,6 @@ class Scheduler():
 			api_process.start()
 
 
-# s = Scheduler()
-# s.run()
+if __name__ == '__main__':
+	s = Scheduler()
+	s.run()
